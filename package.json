@@ -1,12 +1,17 @@
 {
     "name": "@barisr/express-generator",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "this is a express generator cli tool that will create a new express project ready to use after the installation just use the command 'express-generator' and follow the instructions",
     "main": "index.js",
     "scripts": {
         "start": "node index.js"
     },
-    "keywords": [],
+    "keywords": [
+        "express",
+        "generator",
+        "cli",
+        "tool"
+    ],
     "author": "Bar Israeli",
     "license": "ISC",
     "dependencies": {

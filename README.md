@@ -31,9 +31,9 @@ For support, email Bar@BarIsraeli.com .
 
 -   [@BarIsr](https://github.com/BarIsr)
 
-## Installation
+## Run
 
-Install express-generator with npm
+Run express-generator with npm
 
 ```bash
   npx @barisr/express-generator
