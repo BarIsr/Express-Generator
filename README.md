@@ -21,7 +21,7 @@ this is a express generator cli tool that will create a new express project read
 
 -   a basic error handling middleware
 -   index route
--   a try catch util function for a cleaner controllers
+-   a try-catch util function for cleaner controllers
 
 ## Support
 
