@@ -1,6 +1,6 @@
 {
     "name": "@barisr/express-generator",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "this is a express generator cli tool that will create a new express project ready to use after the installation just use the command 'express-generator' and follow the instructions",
     "main": "index.js",
     "scripts": {

@@ -105,7 +105,6 @@ const createApp = () => {
     "main": "index.js",
     "scripts": {
         "start": "nodemon index.js",
-        "test": "echo \\"Error: no test specified\\" && exit 1"
     },
     "keywords": [],
     "author": "",
@@ -122,7 +121,7 @@ const createApp = () => {
     "morgan": "~1.9.1",
     "nodemailer": "^6.8.0",
 
-    },`,
+    },}`,
     )
 
     // Create the main file
