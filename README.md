@@ -14,6 +14,7 @@ this is a express generator cli tool that will create a new express project read
         .env
         .gitignore
         index.js (basefile)
+        package.json
 
 ---
 
@@ -22,6 +23,7 @@ this is a express generator cli tool that will create a new express project read
 -   a basic error handling middleware
 -   index route
 -   a try-catch util function for cleaner controllers
+-   a basic package.json file with my most used libraries 
 
 ## Support
 
@@ -37,4 +39,5 @@ Run express-generator with npm
 
 ```bash
   npx @barisr/express-generator
+  then cd into the folder and run npm i
 ```

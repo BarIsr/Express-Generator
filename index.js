@@ -95,6 +95,36 @@ const createApp = () => {
 }`,
     )
 
+    // Create the package.json file
+    fs.writeFileSync(
+        path.join(userDirName, 'package.json'),
+        `{
+    "name": "${userDirName}",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \\"Error: no test specified\\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "mongoose": "^6.0.13",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.8.0",
+
+    },`,
+    )
+
     // Create the main file
     fs.writeFileSync(
         path.join(userDirName, 'index.js'),
